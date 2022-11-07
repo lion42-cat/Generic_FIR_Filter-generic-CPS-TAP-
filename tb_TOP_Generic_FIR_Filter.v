@@ -15,7 +15,7 @@ TOP_Genric_FIR_Filter u7(
 
 //Clk filter의 #x = clk_data의 주기 * CPS
 always begin #1 clk_data = ~clk_data; end
-always begin #2 cTlk_filter = ~clk_filter; end
+always begin #2 clk_filter = ~clk_filter; end
 
 initial begin
 clk_data = 1; clk_filter = 1; rst = 1; in_data=0;
