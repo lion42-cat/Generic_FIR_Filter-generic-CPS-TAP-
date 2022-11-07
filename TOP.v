@@ -1,8 +1,8 @@
 `timescale 1ns / 1ps
-`define CPS 2
+`define CPS 4
 //FIR_tap은 N_TAP_FIR_Filter에서 define해야함.
 //////////////////////////////////////////////////////////////////////////////////
-module TOP_Genric_FIR_Filter(clk_data, clk_filter, rst, in_data, out_data);
+module TOP(clk_data, clk_filter, rst, in_data, out_data);
 input clk_data, clk_filter, rst; //clk_data가 clk_filter보다 CPS배 빠름
 input [15:0] in_data;
 output reg [15:0] out_data;
