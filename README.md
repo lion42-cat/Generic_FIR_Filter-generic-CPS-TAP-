@@ -9,7 +9,3 @@ increasing the motion speed and implementing convolutional behavior with pipelin
 area, Time sharing increased the operating frequency of the multiplier module by four times the input data
 clock, reducing the area of the circuit by a quarter, and improving performance by 16 times through parallel
 processing.
-
-
-In the process of measuring the AD Converter performance of Xilinx RFSoC, I learned how to use Signal
-Analyzer and Signal Generator, and measured ACLR and EVM in five frequency bands.
