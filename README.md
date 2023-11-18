@@ -10,4 +10,4 @@ area, Time sharing increased the operating frequency of the multiplier module by
 clock, reducing the area of the circuit by a quarter, and improving performance by 16 times through parallel
 processing.
 
-![Poster](./Poster.png)
+![Poster](./Poster.PNG)
