@@ -9,3 +9,4 @@ increasing the motion speed and implementing convolutional behavior with pipelin
 area, Time sharing increased the operating frequency of the multiplier module by four times the input data
 clock, reducing the area of the circuit by a quarter, and improving performance by 16 times through parallel
 processing.
+
